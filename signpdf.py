@@ -19,7 +19,7 @@ def merge_two_files(inFile,signFile):
 
     return writer
 def merge_multiple_files(cert_folder_path,sign_file_path):
-    out_folder_name='outcerts_I'+str(random()).replace('.','')
+    out_folder_name='outcerts_'+str(random()).replace('.','')
     if not os.path.exists(out_folder_name):
         os.mkdir(out_folder_name)
     out_folder_path=out_folder_name+"\\"
