@@ -17,6 +17,10 @@ The students are always asking for the certificate handwritten signature. The pr
 * The signed certificates will be put in new folder named "signed_certificates_output_xxxxxxxxxx" where xxxxxxxx is random number
 * Congratulations ... You signed all the certificates in no time. 
 
+## Depndancies 
+* PyPDF2, for merging two pdf files, [PyPDF2 Link](https://pypi.org/project/PyPDF2/)
+* os, for dealing with folder creation and search
+* random, to create random folder each time you run the script
 
 ## References 
 * The pdf code for merging two files is obtained from [[This url]](https://stackoverflow.com/questions/13276409/how-to-add-image-to-pdf-file-in-python)
