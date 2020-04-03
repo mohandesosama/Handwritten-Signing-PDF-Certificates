@@ -9,8 +9,13 @@ The students are always asking for the certificate handwritten signature. The pr
 
 ![without_sign_image](https://github.com/mohandesosama/Handwritten-Signing-PDF-Certificates/blob/master/images/certificate_with_sign.png)
 
-
-
+## Solution
+* Open the sign.docx file, remove the signature and put your own signature
+* Save sign.docx as sign.pdf
+* Put all the certificates (even thousands of certificates) you want to sign in the "put_certificates_tobe_signed_here" folder
+* Run the script
+* The signed certificates will be put in new folder named "signed_certificates_output_xxxxxxxxxx" where xxxxxxxx is random number
+* Congratulations ... You signed all the certificates in no time. 
 
 
 ## References 
