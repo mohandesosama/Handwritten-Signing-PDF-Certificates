@@ -2,7 +2,7 @@
 
 ## The problem
 After giving courses in cisco academey (www.netacad.com), the certificates are not signed. See figure below
-(https://github.com/mohandesosama/Handwritten-Signing-PDF-Certificates/blob/master/images/certificate_with_sign.png)
+[](https://github.com/mohandesosama/Handwritten-Signing-PDF-Certificates/blob/master/images/certificate_with_sign.png)
 
 The students are always asking for the certificate handwritten signature. The problem is that, in some course the students may count more than 2000. Signing more than 2000 certificates one by one is very time and effort consuming task. I have developed this python script to sign automatically thousands of certificates in a blink of an eye. 
 
