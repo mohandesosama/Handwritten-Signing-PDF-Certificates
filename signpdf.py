@@ -12,14 +12,15 @@ def merge_two_files(inFile,signFile):
     # merge the first two pages
     certificate_bkgnd.mergePage(signature)
 
-    # add all pages to a writer
+    # add all pages to be signed to a writer
     writer = pypdf.PdfFileWriter()
-    page = certificate.getPage(0)
-    writer.addPage(page)
+    for i in range(certificate.getNumPages()):
+        page = certificate.getPage(i)
+        writer.addPage(page)
 
     return writer
 def merge_multiple_files(cert_folder_path,sign_file_path):
-    out_folder_name='outcerts_'+str(random()).replace('.','')
+    out_folder_name='signed_certificates_output_'+str(random()).replace('.','')
     if not os.path.exists(out_folder_name):
         os.mkdir(out_folder_name)
     out_folder_path=out_folder_name+"\\"
@@ -27,6 +28,7 @@ def merge_multiple_files(cert_folder_path,sign_file_path):
     onlypdffiles = [f for f in listdir(cert_folder_path) if isfile(join(cert_folder_path, f)) and '.pdf' in f]
     nfiles=len(onlypdffiles)
     counter=1
+    
     #print(onlypdffiles)
     for cert_filename in onlypdffiles:
         with open(cert_folder_path+cert_filename, "rb") as inFile, open(sign_file_path, "rb") as signFile:
@@ -40,5 +42,5 @@ def merge_multiple_files(cert_folder_path,sign_file_path):
 if __name__ == "__main__":
     # go put all the certificates you want to sign into the certs folder
     sign_file="sign.pdf"
-    cert_folder_path = "certs\\"
+    cert_folder_path = "put_certificates_tobe_signed_here\\"
     merge_multiple_files(cert_folder_path,sign_file)
