@@ -1,4 +1,4 @@
-# Sign PDF Files with Handwritten Signature
+# Sign PDF Files with Handwritten Signature: Python script
 
 ## The problem
 After giving courses in cisco academey (www.netacad.com), the certificates are not signed. See figure below
