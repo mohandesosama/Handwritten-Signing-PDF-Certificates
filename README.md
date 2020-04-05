@@ -13,7 +13,7 @@ The students are always asking for the certificate handwritten signature. The pr
 * Open the sign.docx file, remove the signature and put your own signature and/or stamp
 * Save sign.docx as sign.pdf
 * Put all the certificates (even thousands of certificates) you want to sign in the "put_certificates_tobe_signed_here" folder
-* Run the script
+* Run signpdf.py script
 * The signed certificates will be put in new folder named "signed_certificates_output_xxxxxxxxxx" where xxxxxxxx is random number
 * Congratulations ... You signed all the certificates in no time. 
 
