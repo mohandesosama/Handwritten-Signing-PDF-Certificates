@@ -1,0 +1,30 @@
+form {
+  border: 3px solid #f1f1f1;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text]{
+  border: 1px solid #ccc;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: block;   /* diplay each textbox in newline*/
+  width: 50%;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#sign_button{
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  cursor: pointer;
+  width:50%;
+  border:none;
+}
+
+.container{
+  padding: 16px;
+}
