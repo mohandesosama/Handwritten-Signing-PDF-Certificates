@@ -1,4 +1,4 @@
-# Sign PDF Files with Handwritten Signature: Python script
+# Sign thousands of PDF Files with Handwritten Signature: Python script
 
 ## The problem
 After giving courses in cisco academey (www.netacad.com), the course certificates introduced by the website are not signed. In some courses, more than 2000 students are enrolled. Which makes manual signing of the certificates an infeasible task,  See figure below
